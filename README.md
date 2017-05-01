@@ -32,10 +32,4 @@ This app uses npm. If you dont have npm, visit their site [here](https://docs.np
             height: '100vh'
         }
     }
-    module.exports = styles;```
-
-- Import the bootstrap elements. Example:
-
-```javascript
-    import {Nav, NavItem, Col, Tab, Row} from 'react-bootstrap'
-```
+    module.exports = styles;
