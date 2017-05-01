@@ -32,12 +32,10 @@ This app uses npm. If you dont have npm, visit their site [here](https://docs.np
             height: '100vh'
         }
     }
-    module.exports = styles;
-```
+    module.exports = styles;```
 
-- Add the style directly to the elements. Example:
-  
+- Import the bootstrap elements. Example:
+
 ```javascript
-    <div style={styles.container}>
+    import {Nav, NavItem, Col, Tab, Row} from 'react-bootstrap'
 ```
-
